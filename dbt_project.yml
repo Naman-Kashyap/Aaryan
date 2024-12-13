@@ -36,10 +36,10 @@ models:
       +materialized: view
       +schema: staging
 
-    core:
+    intermediate:
       +materialized: table
       +schema: core
 
-    mart:
+    marts:
       +materialized: table
       +schema: mart
